@@ -79,7 +79,7 @@ function Child() {
                     Description <br />
                     <input type="text"
                         value={newDesc}
-                        placeholder="Enter Transaction Details"
+                        placeholder="Enter Transaction Detail"
                         onChange={(ev) => setDesc(ev.target.value)}
                         required />
                 </label>
